@@ -32,9 +32,15 @@ ul{
 .banner{
 	padding-bottom: 2em;
 	text-align:center;
+	img{
+		margin: 0;
+	}
 }
 .banner2{
 	text-align:center;
+	img{
+		margin:0;
+	}
 }
 .bold{
 	font-weight: bold;
@@ -105,7 +111,10 @@ ul{
 }
 .como-llegar{
 	text-align:center;
-	padding: 1.5em 1em 0 1em;
+	padding: 1.5em 0 0 0;
+	p{
+		padding: 1em;
+	}
 }
 .contacto{
 	text-align:center;
