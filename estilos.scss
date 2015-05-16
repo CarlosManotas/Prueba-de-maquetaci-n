@@ -31,6 +31,10 @@ ul{
 }
 .banner{
 	padding-bottom: 2em;
+	text-align:center;
+}
+.banner2{
+	text-align:center;
 }
 .bold{
 	font-weight: bold;
@@ -75,7 +79,7 @@ ul{
 .servicios{
 	background-color: #f0f0f0;
 	text-align: center;
-	padding: 1.5em 0;
+	padding: 1.5em 1em;
 	figure{
 		padding: 1.5em;
 	}
@@ -101,7 +105,7 @@ ul{
 }
 .como-llegar{
 	text-align:center;
-	padding: 1.5em 0 0 0;
+	padding: 1.5em 1em 0 1em;
 }
 .contacto{
 	text-align:center;
@@ -110,7 +114,7 @@ ul{
 	@media(min-width:768px){
 		.col-sm-6{
 			text-align: left;
-			margin-top: 1.5em;
+			margin-top: 1.6em;
 		}
 	}
 }
