@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Prueba</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<div class="container-fluid cabeza">
+			<div class="logo col-xs-10 col-sm-8"><img class="img-responsive" src="imagenes/logo.png" alt="logo"></div>
+			<div class="facebook col-sm-4"><a href="#">SEGUINOS EN FACEBOOK</a></div>
+			<button class="icon-menu colo-xs-2" id="menu"><span class="glyphicon glyphicon-list"></span></button>
+		</div>
+			<nav class="menu container">
+				<ul class="list-group">
+					<li><a class="list-group-item" href="#promociones">PROMOCIONES</a></li>
+					<li><a class="list-group-item" href="#servicios">SERVICIOS</a></li>
+					<li><a class="list-group-item" href="#como-llegar">COMO LLEGAR</a></li>
+					<li><a class="list-group-item" href="#contacto">CONTACTO</a></li>
+				</ul>
+			</nav>
+		<figure class="banner">
+			<img class="img-responsive" src="imagenes/img1.png" alt="home">
+		</figure>
+		<div class="container">
+			<div class="media col-sm-4">
+				<a href="#" class="pull-left">
+					<img src="imagenes/facebook.png" class="media-object" alt="facebook">
+				</a>
+				<div class="media-body subscribir">
+					<p><span class="bold">Facebook</span><br>Hazte fan de nuestro canal
+					y enterate antes que nadie de 
+					nuestras promociones y ofertas.</p>
+				</div>
+			</div>
+			<div class="media col-sm-4 subscribir">
+				<p><span class="bold">Subscribite a nuestro newsletter </span><br>para mantenerte informado sobre nuestras 
+				promociones y nuevos productos.</p>
+			</div>
+			<div class="col-sm-4 media email">
+				<input type="text" class="form-control" placeholder="ingresá email:">
+			</div>
+		</div>
+	</header>
+	<section>
+		<article id="servicios" class="container-fluid servicios">
+			<img src="imagenes/servicios.png" alt="servicios">
+			<h2>SERVICIOS</h2>
+			<p>Contamos con personal especializado en cada una de las áreas, disponiendo<br> 
+			de la mejor tecnología y servicio aplicado a la industria automotriz.<br>
+			Estos son algunos de nuestros servicios:</p>
+			<figure>
+				<img src="imagenes/freno.png" alt="balanceo">
+				<figcaption>Alineación y Balanceo</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/llave.png" alt="suspensión">
+				<figcaption>Amortiguación y Suspensión</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/engranaje.png" alt="mecánica">
+				<figcaption>Mecánica</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/caucho.png" alt="frenos">
+				<figcaption>Frenos</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/bateria.png" alt="bateria">
+				<figcaption>Baterias</figcaption>
+			</figure>
+			<figure>
+				<img src="imagenes/aceite.png" alt="lubricante">
+				<figcaption>Lubricantes</figcaption>
+			</figure>
+			
+			<h6>Contamos con tecnología de avanzada y con un plantel de profesionales altamente capacitado lo cual nos permite no tener margen de error y 
+			detectar hasta el más mínimo desperfecto. Así de esta manera podemos brindarle a usted y su familia máxima seguridad, confiabilidad y comodidad 
+			al trasladarse en su vehículo. Es por eso que en cualquiera de nuestras sucursales usted podrá verificar el estado de su vehículo sin ningún costo. 
+			Lo esperamos con la infraestructura y la tecnología necesaria para brindar todos los servicios que nuestros clientes merecen y solicitan.</h6>
+		</article>
+		<article id="como-llegar" class="container-fluid como-llegar">
+			<img src="imagenes/estamos.png" alt="como llegar">
+			<h2>COMO LLEGAR</h2>
+			<p>Neumaticos Lopez. Ruta 9 Km 40. Colectora Oeste 1588. Garin 1625. Buenos Aires</p>
+			<figure><img src="imagenes/mapa.png" class="img-responsive" alt="mapa"></figure>
+		</article>
+		<article id="contacto" class="container-fluid contacto">
+			<div class="container">
+				<img src="imagenes/contacto.png" alt="contacto">
+				<h2>CONTACTO</h2>
+				<p>Estamos para ofrecerle soluciones.</p>
+				<div class="col-sm-6">
+					<h4>COMUNIQUESE</h4>
+					<p><span class="glyphicon glyphicon-map-marker"></span> Colectora Oeste 1588. Garin. Bs.As. Argentina</p>
+					<p> <span class="glyphicon glyphicon-envelope"></span> info@hankook.com.ar</p>
+					<p><span class="glyphicon glyphicon-earphone"></span> 4006 6004</p>
+					<p><span class="glyphicon glyphicon-globe"></span> www.hankook.com.ar</p>
+					<h4>HORARIO DE ATENCIÓN</h4>
+					<p>Lunes a Viernes de 9:00 a 19:00 hs.<br>Sabados de 9:00 a 14:00 hs.<br>Domingos y feriados cerrado.</p>
+				</div>
+				
+				
+				<form role = "form" class="col-sm-6">
+					<h4>ESTAMOS ESPERANDO SU OPINIÓN</h4>
+					<div class="form-group">
+						<input type="Nombre"  class ="form-control"placeholder ="NOMBRE">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="EMAIL">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" placeholder="MENSAJE" rows="5"></textarea>
+					</div>
+					<button type="submit" class="btn btn-warning">Enviar</button>
+				</form>
+			</div>
+			
+		</article>
+	</section>
+	<footer class="container">
+		<p class="col-sm-5">© 2015 Hankook tire Argentina. Derechos Reservados</p>
+		<ul class="col-sm-7">
+			<li><a href="#">NEUMÁTICOS</a></li>
+			<li><a href="#">TECNOLOGIA</a></li>
+			<li><a href="#">PROMOCIONES</a></li>
+			<li><a href="#">SERVICIOS</a></li>
+			<li><a href="#">COMO LLEGAR</a></li>
+			<li><a href="#">CONTACTO</a></li>
+		</ul>
+		<img class="img-responsive col-sm-3" src="imagenes/logo.png" alt="logoByN">
+		<p class="col-sm-9 pie">Hankook Argentina.    |     email info@hankook.com.ar     |    web www.hankook.com.ar<br>
+		Copyright © Hankook tire, todos los derechos reservados.</p>
+	</footer>
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/funcion.js"></script>
+</body>
+</html>
